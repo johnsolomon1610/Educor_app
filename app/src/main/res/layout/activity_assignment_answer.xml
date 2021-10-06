@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:gravity="start" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/due"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/gray"
+        android:textSize="15dp"
+        android:textAlignment="textStart"
+        android:gravity="start" />
+
+        <View
+            style="@style/Divider"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/attachments"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:textColor="@color/gray"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/recyclerView"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

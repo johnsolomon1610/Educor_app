@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+    tools:context=".Screenrecorder.C"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:id="@+id/l_ads"
+        android:paddingTop="50dp">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="bottom|right"
+        android:id="@+id/exit_fullscreen"
+        android:visibility="visible">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_height="55dp"
+        android:layout_width="55dp"
+        android:gravity="bottom|end"
+        android:id="@+id/fav"
+        android:visibility="visible"
+        app:layout_anchorGravity="right"
+        app:backgroundTint="@color/statusbar"
+        android:src="@drawable/record_icon"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

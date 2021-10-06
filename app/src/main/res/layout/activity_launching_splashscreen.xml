@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Splashscreen.Launching_splashscreen">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/SlideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="150dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/SlideViewPager"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="-50dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/dotsLayout">
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/NextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dotsLayout"
+        android:layout_alignBottom="@+id/dotsLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:textColor="@color/gray"
+        android:text="Let's start"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="2000"
+        app:sub_btn_line_color="#2545f4"
+        app:sub_btn_ripple_color="#2545f4"
+        app:sub_btn_tick_color="@color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>

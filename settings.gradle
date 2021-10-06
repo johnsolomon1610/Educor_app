@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "Educor_app"
+include ':openCVLibrary330'
+include ':openCVLibrary341'

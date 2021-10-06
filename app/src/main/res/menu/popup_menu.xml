@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Delete" android:id="@+id/item_delete" android:iconTint="#2545f4"/>
+
+    <item android:title="Share" android:id="@+id/item_share" android:iconTint="#2545f4"/>
+
+    <item android:title="Rename" android:id="@+id/item_rename" android:iconTint="#2545f4"/>
+
+</menu>

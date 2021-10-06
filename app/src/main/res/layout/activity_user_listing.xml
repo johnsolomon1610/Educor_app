@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.educor_app.chats.ui.activities.LoginActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:elevation="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Chat" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_user_listing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:tabBackground="?attr/colorPrimary"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/cyan_A100"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/grey_100"
+            app:tabTextColor="@color/grey_300" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager_user_listing"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="#FFFF"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        />
+
+</RelativeLayout>

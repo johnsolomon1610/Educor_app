@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.educor_app.Authentications.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/login_smily_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_scale="1.0"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="fitCenter"
+            app:lottie_rawRes="@raw/login_animation"
+            />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#7A7A7A"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/login"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Welcome back,"
+            android:textColor="#716F6F"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/text1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="please login"
+            android:textColor="#716F6F"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/text4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="to your account!"
+            android:textColor="#716F6F"
+            android:textSize="22dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/text5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            app:hintEnabled="true"
+            app:boxBackgroundColor="@color/white"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:hint="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/Textcolor"
+                android:background="@drawable/login_border"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Email"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:passwordToggleEnabled="true"
+            app:boxBackgroundColor="@color/white"
+            android:hint="Password"
+            app:hintEnabled="true"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/Email"
+                android:textColor="@color/Textcolor"
+                android:background="@drawable/login_border"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="311dp"
+            android:layout_height="18dp"
+            android:layout_alignBottom="@+id/Password"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:textColor="#3A3A3A"
+            android:layout_marginBottom="-41dp"
+            android:text="Keep me signed in." />
+
+        <Button
+            android:id="@+id/Login_button"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/checkBox"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/border"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingEnd="20dp"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/preloader_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:lottie_rawRes="@raw/preloader"
+            android:visibility="invisible"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/Password"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="100dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_scale="0.4"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/Login_button"
+            android:orientation="horizontal"
+            android:layout_marginTop="-20dp"
+            android:layout_toRightOf="@+id/login"
+            android:layout_marginLeft="15dp"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Google_button"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:src="@drawable/google_icon"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="35dp"
+                />
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/phone_button"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/phone_img_logo"
+                android:layout_marginLeft="25dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/Linear"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textColor="#716F6F"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="5dp"
+                android:text="Sign Up"
+                android:gravity="start"
+                android:textAllCaps="false"
+                android:textColor="@color/Blurtextcolor"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/Password"
+            android:layout_alignRight="@+id/checkBox"
+            android:layout_marginTop="85dp"
+            android:text="Forget Password?"
+            android:gravity="start"
+            android:textAllCaps="false"
+            android:textColor="@color/Blurtextcolor"
+            android:textSize="15dp" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

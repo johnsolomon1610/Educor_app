@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Assignment.Assignment_Submission.AssignmentFiles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/g"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="Due:"
+                android:textColor="@color/Textcolor"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/due"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:padding="5dp"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:text="100 points"
+            android:textColor="@color/gray"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/files"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:text="+Attachments"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <View
+            style="@style/Divider"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/Submisiion_header"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="Submissions: "
+            android:textAlignment="textStart"
+            android:textColor="@color/gray"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:scrollbars="none"/>
+
+        <View
+            android:id="@+id/view_divider"
+            style="@style/Divider"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/grade_header"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:padding="5dp"
+                android:text="Grade:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/grade"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="50dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="-35dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/shape_circle_background"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/shape_circle_progress"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvcounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:text="100"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/score_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginRight="75dp"
+            android:background="@drawable/border"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="100"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="Private comment:"
+                android:textColor="@color/black"
+                android:visibility="invisible"
+                android:id="@+id/comment_header"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/comments"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</layout>

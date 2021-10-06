@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "821125930211",
+    "firebase_url": "https://educor-71db9.firebaseio.com",
+    "project_id": "educor-71db9",
+    "storage_bucket": "educor-71db9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821125930211:android:25cc533717a791812239d6",
+        "android_client_info": {
+          "package_name": "com.example.educor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821125930211-37krbl2nsls49p4bu273rgcd9uhtdsko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZV32t4mjQB-OSIepkU32ZUFT-X9TUoog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821125930211-37krbl2nsls49p4bu273rgcd9uhtdsko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

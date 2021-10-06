@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    tools:context=".Screenrecorder.C"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/cmy1"
+        android:divider="@null"
+        android:paddingBottom="50dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/emptyElement"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="No recent recordings..."/>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Assignment.AssignmentForm">
+
+
+    <EditText
+        android:id="@+id/duetime"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border_rectangle"
+        android:ems="10"
+        android:hint=" Due-time"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Add comments..."
+        android:textColorHint="@color/black"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="230dp"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/border_rectangle"
+        android:ems="10"
+        android:hint=" Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+</RelativeLayout>

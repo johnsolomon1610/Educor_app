@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item android:title="Classroom">
+        <menu>
+            <item android:id="@+id/create"
+                android:icon="@drawable/create"
+                android:title="Create Class"/>
+            <item android:id="@+id/join"
+                android:icon="@drawable/join"
+                android:title="Join Class"/>
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/feedback"
+        android:title="Feedback"/>
+    <item
+        android:id="@+id/Help"
+        android:icon="@drawable/help"
+        android:title="Help"/>
+    <item android:id="@+id/signout"
+        android:title="Signout"
+        />
+</menu>
