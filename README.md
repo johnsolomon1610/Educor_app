@@ -44,7 +44,22 @@ This project is completely based on welfare of college and school students. Bein
 ### **Online Classroom :**
            
   Online classroom is a very new concept being followed in this pandemic situation. This helps  educational institutions just like schools and colleges to work even in most worse pandemic situations through online facility. Students can interactively participate and can clear their doubts in subject with their faculty. Screen recording feature helps the student to recap the class when they are in need.
-  
- ![WhatsApp Image 2021-10-06 at 2 05 08 PM (7)](https://user-images.githubusercontent.com/55402034/136173267-9d823227-902c-4122-b6a7-4673f58876f4.jpeg)
+
+
+<p>&nbsp;</p>
+<p float="left" >
+  <img src="https://user-images.githubusercontent.com/55402034/136173267-9d823227-902c-4122-b6a7-4673f58876f4.jpeg" width="200" />
+  <img src="https://user-images.githubusercontent.com/55402034/136175158-d7b096cc-ea5a-45a2-91c6-a8bf41c6b745.jpeg" width="200" />
+  <img src="https://user-images.githubusercontent.com/55402034/136175187-16630d86-dc1a-4b04-b9ff-d58b32b88128.jpeg" width="200" />
+ <img src="https://user-images.githubusercontent.com/55402034/136175239-ffde3609-5726-4200-a443-f445dd5084bb.jpeg" width="200" />
+ <img src="https://user-images.githubusercontent.com/55402034/136175276-dc0673ba-7b84-4916-acad-6c11bbe6cbba.jpeg" width="200" />
+ <img src="https://user-images.githubusercontent.com/55402034/136175485-d5f7db1b-d810-42e6-8646-d5013dc4fe11.jpeg" width="200" />
+ <img src="https://user-images.githubusercontent.com/55402034/136175540-822196f1-1daa-481e-9646-6fead26b6137.jpeg" width="200" />
+ <img src="https://user-images.githubusercontent.com/55402034/136175588-fab6b33c-b037-472e-a032-308ad7183310.jpeg" width="200" />
+ <img src="https://user-images.githubusercontent.com/55402034/136175636-57b02ec1-9a17-404c-af72-2c3b5bca4dc8.jpeg" width="200" />
+ <img src="https://user-images.githubusercontent.com/55402034/136175679-9d8ebcde-cd67-4af2-911f-58389bb750cf.jpeg" width="200" />
+</p>
+
+
 
   
